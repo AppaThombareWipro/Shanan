@@ -45,9 +45,10 @@ public class LoginTestC {
 	@AfterClass
 	public void closebrowser() {
 		Reporter.log("close the browser",true);
+		System.out.println("I am comming from github");
+
 		
 		
 	}
-	System.out.println("I am comming from github);
-
+	
 }
